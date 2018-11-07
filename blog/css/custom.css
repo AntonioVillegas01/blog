@@ -1,0 +1,75 @@
+.img-logo {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.thumb {
+    width: 100%;
+    max-height: 300px;
+}
+
+span .badge-doex {
+    background-color: darkseagreen !important;
+}
+
+.img-article {
+    width: 100%;
+    max-height: 450px;
+
+}
+
+.paginacion {
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.paginacion ul {
+    list-style: none;
+}
+
+.paginacion ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.paginacion ul .active  {
+    font-size: xx-large;
+    border-radius: 30px;
+    background: #f26522 ;
+    color: white;
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+
+}
+
+.paginacion ul .disabled {
+    border-radius: 30px;
+    background: #c8c8c8;
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 10px;
+    cursor: not-allowed;
+    color: #fff;
+    text-decoration: none;
+    display: none !important;
+}
+
+.paginacion ul li a {
+    border-radius: 30px;
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    padding: 15px 25px;
+    background: #c8c8c8;
+    color: #fff;
+    text-decoration: none;
+}
+
+.paginacion ul li a:hover {
+    background: lightgreen;
+    text-decoration: none;
+}
